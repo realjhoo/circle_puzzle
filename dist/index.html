@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Puzzle</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      canvas {
+        border: 1px solid black;
+        display: block;
+        margin: 20px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Circle Word Puzzle Generator</h1>
+    <input id="textInput" type="text" placeholder="Enter text here" />
+    <button onclick="generatePuzzle()">Generate Puzzle</button>
+    <button onclick="saveCanvas()">Save as Image</button>
+    <canvas id="circlePuzzle" width="500" height="500"></canvas>
+    <script src="js/script.js"></script>
+  </body>
+</html>
